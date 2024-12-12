@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F3D7B7;
+    height: 50px;
+
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 42px;
+    
+}
+
+nav a {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header ul li {
+    list-style: none;
+}
+
+h1 {
+    width: 447px;
+    height: 150px;
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 75px;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 50px;
+
+}
+
+.section-one {
+    background-color: #F3D7B7;
+    height: 800px;
+    padding: 100px 50px;
+    display: flex;
+
+}
+
+.section-one-l p {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 464px;
+    height: 72px;
+    margin-bottom: 50px;
+}
+
+.section-one-l button {
+    width: 193px;
+    height: 51px;
+    padding: 16px 24px 16px 24px;
+    gap: 10px;
+    border-radius: 100px;
+    border: none;
+    background-color: #0A775F;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+
+}
+
+.section-one-r {
+    position: relative;
+}
+
+.kiyik {
+    animation-name: kiyik;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    z-index: 11;
+    position: absolute;
+    left: 130px;
+}
+
+
+.coffee {
+    position: absolute;
+    top: 100px;
+    left: 215px;
+}
+
+@keyframes kiyik {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.section-two h2 {
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 150px;
+
+}
+
+.text h3 {
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56.25px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #333333;
+
+}
+
+.text p {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 391.08px;
+    height: 68px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #F3D7B7;
+    height: 160px;
+    padding-top: 65px;
+}
+
+.ftr {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.ftr nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.sm {
+    display: flex;
+    gap: 30px;
+}
